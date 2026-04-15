@@ -1,0 +1,98 @@
+.w-20 {
+  width: 20%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.logo-text{
+  width:100px;
+}
+
+.bi{
+  margin-right: 10px;
+}
+.story{
+  height: 70px;
+  padding: 10px;
+}
+.dp{
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.image{
+  width: 300px;
+}
+
+.suggestions h5{
+  font-size: 16px;
+}
+
+.suggestions .dp{
+  margin-top: 0px !important;
+}
+
+.gradient-border {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00);
+}
+
+.story-dp{
+  width: 40px;
+}
+.profile{
+  width: 100px;
+  height: 100px;
+}
+
+.chatContainer{
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatBody{
+  flex:1;
+  padding: 10px;
+ overflow-y: auto;
+ background-color: #ff6600;
+}
+
+.myMessage{
+  background-color: #0095f6;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 5px 0;
+  align-self: flex-end;
+}
+
+.otherMessage {
+  background-color: #efefef;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.chatFooter{
+  display:flex ;
+  padding: 10px;
+  border-top:1px solid #ddd ;
+}
+.Search{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

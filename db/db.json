@@ -1,0 +1,150 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "image": "https://picsum.photos/id/1015/600/400",
+      "caption": "Beautiful sunset 🏜️ #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:04Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "priya_travels",
+        "profile_pic": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      "image": "https://picsum.photos/id/1025/600/400",
+      "caption": "Exploring the mountains ⛰️ #Adventure",
+      "likes": 245,
+      "comments": [
+        {
+          "user": "rahul_mehta",
+          "comment": "Looks so peaceful!"
+        },
+        {
+          "user": "sneha_patel",
+          "comment": "Take me with you next time 😍"
+        }
+      ],
+      "timestamp": "2025-02-12T09:15:22Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_life",
+        "profile_pic": "https://randomuser.me/api/portraits/men/12.jpg"
+      },
+      "image": "https://picsum.photos/id/1080/600/400",
+      "caption": "Best pasta in town 🍝 #Foodie",
+      "likes": 310,
+      "comments": [
+        {
+          "user": "vikram_singh",
+          "comment": "That looks delicious!"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Where did you get this?"
+        }
+      ],
+      "timestamp": "2025-02-13T18:45:10Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "jd@123",
+    "profile_pic": "src/assets/S1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": "102",
+      "username": "priya_travels",
+      "profile_pic": "https://randomuser.me/api/portraits/women/45.jpg"
+    },
+    {
+      "id": "103",
+      "username": "foodie_life",
+      "profile_pic": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": "104",
+      "username": "foodie_",
+      "profile_pic": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": "105",
+      "username": "life",
+      "profile_pic": "https://randomuser.me/api/portraits/men/12.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "image": "/src/assets/S1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "priya_travels",
+        "profile_pic": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      "image": "/src/assets/S2.jpeg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_life",
+        "profile_pic": "https://randomuser.me/api/portraits/men/12.jpg"
+      },
+      "image": "/src/assets/S3.jpeg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "103",
+      "username": "foodie_life",
+      "profile_pic": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": "102",
+      "username": "priya_travels"
+    },
+    {
+      "id": "105",
+      "username": "life"
+    },
+    {
+      "id": "101",
+      "username": "john_doe"
+    }
+  ]
+}
